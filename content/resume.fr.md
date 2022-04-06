@@ -14,7 +14,7 @@ weight: 40
 # Resume
 
 ***
-Stages de recherche entrants au CNRS-LAAS Lab, sujet : SLAM, reconnaissance d'objets et estimation de pose pour la planification de mouvement sur le robot humanoïde TALOS.
+Actuellement Stages de recherche au CNRS-LAAS Lab, sujet : SLAM, reconnaissance d'objets et estimation de pose pour la planification de mouvement sur le robot humanoïde TALOS.
 
 Etudiant en Master Micromécatronique, Instrumentation et Robotique à l'Université de Franche-Comté
 Passionné de robotique, vision et machine learning.

@@ -14,7 +14,7 @@ weight: 40
 # Resume
 
 ***
-Incoming Research Internships at CNRS-LAAS Lab, sujet: SLAM, objet recognition and pose estimation for motion planning on the TALOS humanoid robot.
+Actually Research Internships at CNRS-LAAS Lab, sujet: SLAM, objet recognition and pose estimation for motion planning on the TALOS humanoid robot.
 
 Master's student in Micromechatronics, Instrumentation and Robotics at the University of Franche-Comté
 Passionate about robotics, vision and machine learning.
