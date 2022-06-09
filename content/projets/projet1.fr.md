@@ -19,7 +19,7 @@ L’oscillateur à quartz que nous allons asservir sera instable, le but du jeu 
 
 La figure ci-dessous représente le schéma récapitulatif de notre projet:
 
-![projets](../projet1.png )
+![projets](../../../projets/projet1.png )
 
 
 

@@ -11,15 +11,13 @@ weight: 40
 
 ---
 
-# Description brève du projet :
+# 项目简介 :
 
 
-<p align = "justify"> Une source stable de temps est issue du GPS, une constellation de satellites munis d’horloges atomiques transmettant un signal permettant de remonter au temps de vol de l’onde électromagnétique émise par chaque satellite et, connaissant leur position, remonter de façon précise à la source de fréquence transmise par chaque satellite. Une forme particulièrement appropriée à notre objectif est l’émission d’une impulsion chaque seconde (1 PPS – 1 pulse par seconde) avec un front précis à quelques dizaines de nanosecondes près. De nombreux récepteurs GPS propose cette fonctionnalité. En mesurant le nombre d’oscillations du quartz cadençant le microcontrôleur entre deux impulsions, nous serons capables de mesurer précisément la fréquence du quartz. La condition de rotation de phase pour réaliser un oscillateur (multiple de 2π dans la boucle d’oscillation) est vérifiée grâce aux condensateurs placés de part et d’autre du dipôle formé par le résonateur à quartz. En ajustant un de ces condensateurs, nous pouvons décaler la fréquence d’oscillation du circuit et ainsi asservir sa fréquence sur le 1 PPS afin de garantir une période indépendante de la température ou des conditions environnementales du microcontrôleur. Alternativement, cette stratégie permet de réaliser d’excellents capteurs grâce aux excellentes références que sont les horloges atomiques dont la stabilité est en partie transposée sur les récepteurs GPS au sol.
-L’oscillateur à quartz que nous allons asservir sera instable, le but du jeu est de mettre un correcteur pour le rendre stable. : </p>
+<p align = "justify"> 一个稳定的时间来源一直是困扰着GPS的问题，由配备原子钟的卫星组成的卫星群发射信号，从而可以追踪每颗卫星发射的电磁波的飞行时间，并在知道它们的位置后精确地追溯到频率由每颗卫星发射的源。一种特别适合我们项目目的的形式是每秒发射一个脉冲（1 PPS – 1 个脉冲每秒），前端精确到几十纳秒。许多 GPS 接收器都提供此功能。通过测量在两个脉冲之间为微控制器计时的石英的振荡次数，我们将能够精确测量石英的频率。由于放置在由石英谐振器形成的偶极子两侧的电容器，验证了创建振荡器的相位旋转条件（振荡回路中 2π 的倍数）。通过调整其中一个电容器，我们可以改变电路的振荡频率，从而将其频率控制在 1 PPS 上，以保证周期不受微控制器的温度或环境条件的影响。或者，由于原子钟的稳定参考，这种策略使得生产稳定的传感器成为可能，原子钟的稳定性部分转移到地面上的 GPS 接收器。我们要使用的石英振荡器将是不稳定的，项目的目标是放置一个校正器使其稳定。 </p>
 
-La figure ci-dessous représente le schéma récapitulatif de notre projet:
-
-![projets](../projet1.png )
+下图是我们项目的概要图：
+![projets](../../../projets/projet1.png )
 
 
 
