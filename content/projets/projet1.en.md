@@ -1,5 +1,5 @@
 ---
-title: "Projet license: Asservissement numérique d'un oscillateur à quartz"
+title: "License project: Digital servoing of a quartz oscillator"
 date: 2022-03-11T18:35:26+01:00
 draft: false
 
@@ -11,13 +11,13 @@ weight: 40
 
 ---
 
-# Description brève du projet :
+# Brief description of the project :
 
 
-<p align = "justify"> Une source stable de temps est issue du GPS, une constellation de satellites munis d’horloges atomiques transmettant un signal permettant de remonter au temps de vol de l’onde électromagnétique émise par chaque satellite et, connaissant leur position, remonter de façon précise à la source de fréquence transmise par chaque satellite. Une forme particulièrement appropriée à notre objectif est l’émission d’une impulsion chaque seconde (1 PPS – 1 pulse par seconde) avec un front précis à quelques dizaines de nanosecondes près. De nombreux récepteurs GPS propose cette fonctionnalité. En mesurant le nombre d’oscillations du quartz cadençant le microcontrôleur entre deux impulsions, nous serons capables de mesurer précisément la fréquence du quartz. La condition de rotation de phase pour réaliser un oscillateur (multiple de 2π dans la boucle d’oscillation) est vérifiée grâce aux condensateurs placés de part et d’autre du dipôle formé par le résonateur à quartz. En ajustant un de ces condensateurs, nous pouvons décaler la fréquence d’oscillation du circuit et ainsi asservir sa fréquence sur le 1 PPS afin de garantir une période indépendante de la température ou des conditions environnementales du microcontrôleur. Alternativement, cette stratégie permet de réaliser d’excellents capteurs grâce aux excellentes références que sont les horloges atomiques dont la stabilité est en partie transposée sur les récepteurs GPS au sol.
-L’oscillateur à quartz que nous allons asservir sera instable, le but du jeu est de mettre un correcteur pour le rendre stable. : </p>
+<p align = "justify"> A GPS need a stable source of time, a constellation of satellites equipped with atomic clocks transmitting a signal making it possible to trace the time of flight of the electromagnetic wave emitted by each satellite and, knowing their position, to trace back precisely to the frequency source transmitted by each satellite. A particularly suitable form for our purpose is the emission of a pulse every second (1 PPS – 1 pulse per second) with a front precise to within a few tens of nanoseconds. Many GPS receivers offer this feature. By measuring the number of oscillations of the quartz clocking the microcontroller between two pulses, we will be able to precisely measure the frequency of the quartz. The phase rotation condition to create an oscillator (multiple of 2π in the oscillation loop) is verified thanks to the capacitors placed on either side of the dipole formed by the quartz resonator. By adjusting one of these capacitors, we can shift the oscillation frequency of the circuit and thus slave its frequency on the 1 PPS in order to guarantee a period independent of the temperature or the environmental conditions of the microcontroller. Alternatively, this strategy makes it possible to produce excellent sensors thanks to the excellent references of atomic clocks, the stability of which is partly transposed to GPS receivers on the ground.
+The quartz oscillator that we are going to use will be unstable, the goal of the projet is to put a corrector to make it stable. :</p>
 
-La figure ci-dessous représente le schéma récapitulatif de notre projet:
+The figure below represents the summary diagram of our project:
 
 ![projets](../projet1.png )
 

@@ -1,5 +1,5 @@
 ---
-title: "Projet license: Asservissement numérique d'un oscillateur à quartz"
+title: "学士项目：石英振荡器的数字伺服"
 date: 2022-03-11T18:35:26+01:00
 draft: false
 
