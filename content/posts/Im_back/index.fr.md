@@ -10,7 +10,7 @@ author: "zeng"
 
 resources:
 - name: "featured-image"
-  src: "robot.jpg"
+  src: "pexels-david-dibert-1297763.jpg"
 
 tags: ["post"]
 categories: ["documentation"]
