@@ -12,7 +12,7 @@ resources:
 - name: "featured-image"
   src: "robot.jpg"
 
-tags: ["welcome"]
+tags: ["post"]
 categories: ["documentation"]
 
 lightgallery: true
