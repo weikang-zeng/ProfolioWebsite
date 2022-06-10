@@ -1,6 +1,6 @@
 ---
-title: "welcome to my website"
-date: 2022-03-11T18:35:26+01:00
+title: "Je suis de retour"
+date: 2022-06-10T15:35:26+01:00
 draft: false
 
 weight: 40
@@ -24,10 +24,10 @@ toc:
 
 ---
 
-# This is the personal webpage which I am trying to build
+# Je suis de retour
 
 ***
----Sorry about the project introduction is currently only available in French 
+Bonne nouvelle, maintenant l'introduction du projet est disponible en trois langues.
 ***
 
 
